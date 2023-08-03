@@ -85,3 +85,7 @@ console.log(0 && 123);
 
 console.log("FOO" || "BAR");
 console.log(0 || 123);
+
+// ?? について
+const secret = process.env.SECRET ?? "defaullt";
+console.log(`sectetは${secret}です`);
