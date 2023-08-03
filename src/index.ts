@@ -3,8 +3,8 @@ world!`;
 const greeting: string = "Hello, ";
 const target: string = "world!";
 
-let greeting_2 = "Hello, ";
-let target_2 = "world!";
+const greeting_2 = "Hello, ";
+const target_2 = "world!";
 
 const bignum: bigint = (123n + 456n) * 2n; 
 const result: bigint = 5n / 2n; 
@@ -58,7 +58,7 @@ console.log(Boolean("foobar"));
 console.log(Boolean(null));
 console.log(Boolean(undefined));
 
-// 算術演算子　新規性あるもののみ記載
+// 算術演算子 新規性あるもののみ記載
 const str5: string = '123';
 console.log(+str5 * 100);
 
